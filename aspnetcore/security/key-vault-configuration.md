@@ -24,7 +24,11 @@ This document explains how to use the [Azure Key Vault](https://azure.microsoft.
 
 ## Packages
 
-Add a package reference to the [Azure.Extensions.AspNetCore.Configuration.Secrets](https://www.nuget.org/packages/Azure.Extensions.AspNetCore.Configuration.Secrets/) package.
+Add a package reference to the [Azure.Extensions.AspNetCore.Configuration.Secrets]
+(https://www.nuget.org/packages/Azure.Extensions.AspNetCore.Configuration.Secrets/) package.
+In case of usage in "Managed identities" scenario
+Add a package reference to the [Azure.Identity] 
+(https://www.nuget.org/packages/Azure.Identity/) package
 
 ## Sample app
 
